@@ -15,7 +15,7 @@ void clearScreen(char character, int color){
 }
 
 int main(){
-	int color = 0xEE;
+	int color = 0xFF;
 	char character = ' ';
 	clearScreen(character, color);
 	while(1);
